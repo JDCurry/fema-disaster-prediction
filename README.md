@@ -72,7 +72,51 @@ MIT License
 ## Contributing
 
 1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+3. Create a feature branch
+4. Commit your changes
+5. Push to the branch
+6. Create a Pull Request
+
+## Future Updates/Improvements
+Current Prediction Models and Data Sources
+Prediction Models:
+
+Disaster Type Prediction:
+Uses a Random Forest Classifier to predict the type of disaster.
+Implementation: src/predictor.py
+Disaster Duration Prediction:
+
+Uses a Random Forest Regressor to predict the duration of a disaster.
+Implementation: src/predictor.py
+Future Event Prediction:
+
+Predicts likely disasters for the next X days using historical data.
+Implementation: src/predictor.py
+
+Data Sources:
+The model uses FEMA Disaster Declarations Summaries dataset.
+Data sources are listed in the README.md.
+
+Potential Improvements:
+
+Advanced Modeling Techniques:
+Explore Gradient Boosting Machines (GBM), XGBoost, or LightGBM for better performance.
+Use deep learning models like LSTM or GRU for time series prediction.
+
+Feature Engineering:
+Incorporate additional features such as weather data, economic factors, or population density.
+Use feature selection techniques to identify the most relevant features.
+
+Ensemble Methods:
+Combine multiple models to create an ensemble model for better accuracy.
+Use stacking, bagging, or boosting techniques.
+
+Hyperparameter Tuning:
+Perform hyperparameter tuning using GridSearchCV or RandomizedSearchCV to find the best parameters for your models.
+Cross-Validation:
+
+Use cross-validation techniques to ensure the robustness of your models.
+
+Additional Data Sources:
+Integrate more diverse datasets to improve the prediction capability.
+Implement and test some of these improvements to measure the impact on prediction accuracy.
