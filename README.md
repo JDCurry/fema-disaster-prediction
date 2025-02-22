@@ -79,17 +79,16 @@ MIT License
 
 ## Future Updates/Improvements
 Current Prediction Models and Data Sources
-Prediction Models:
 
 Disaster Type Prediction:
 Uses a Random Forest Classifier to predict the type of disaster.
 Implementation: src/predictor.py
-Disaster Duration Prediction:
 
+Disaster Duration Prediction:
 Uses a Random Forest Regressor to predict the duration of a disaster.
 Implementation: src/predictor.py
-Future Event Prediction:
 
+Future Event Prediction:
 Predicts likely disasters for the next X days using historical data.
 Implementation: src/predictor.py
 
@@ -97,7 +96,7 @@ Data Sources:
 The model uses FEMA Disaster Declarations Summaries dataset.
 Data sources are listed in the README.md.
 
-Potential Improvements:
+Potential Improvements
 
 Advanced Modeling Techniques:
 Explore Gradient Boosting Machines (GBM), XGBoost, or LightGBM for better performance.
@@ -113,8 +112,8 @@ Use stacking, bagging, or boosting techniques.
 
 Hyperparameter Tuning:
 Perform hyperparameter tuning using GridSearchCV or RandomizedSearchCV to find the best parameters for your models.
-Cross-Validation:
 
+Cross-Validation:
 Use cross-validation techniques to ensure the robustness of your models.
 
 Additional Data Sources:
