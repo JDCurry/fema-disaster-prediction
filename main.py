@@ -1,6 +1,6 @@
 # src/main.py
 
-from predictor import DisasterPredictor
+from src.predictor import DisasterPredictor  # Update import path
 
 def main():
     # Initialize predictor
