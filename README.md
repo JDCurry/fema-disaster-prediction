@@ -25,7 +25,7 @@ This project uses historical FEMA disaster declaration data to predict potential
 
 ## Installation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JDCurry/fema-disaster-prediction/blob/main/notebooks/exploratory_analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/JDCurry/fema-disaster-prediction/blob/main/notebooks/FEMA_Disaster_Analysis.ipynb)
 
 
 1. Clone the repository:
