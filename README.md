@@ -30,7 +30,7 @@ This project uses historical FEMA disaster declaration data to predict potential
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/fema-disaster-prediction.git
+   git clone https://github.com/jdcurry/fema-disaster-prediction.git
    cd fema-disaster-prediction
    ```
 
