@@ -1,6 +1,6 @@
-# FEMA Disaster Prediction Model
+# FEMA Disaster Prediction Analysis
 
-A machine learning model for predicting natural disasters based on historical FEMA data.
+A machine learning model for analyzing natural disasters based on historical FEMA disaster declarations.
 
 ## Overview
 
